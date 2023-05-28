@@ -13,7 +13,7 @@
       </router-link>
       <router-link exact to="/jobs" v-slot="{ href, navigate, isActive }">
         <li class="navbar-item" :class="{ active: isActive }">
-          <a :href="href" @click="navigate">职位</a>
+          <a :href="href" @click="navigate">解决方案</a>
         </li>
       </router-link>
       <router-link to="/products" v-slot="{ href, navigate, isActive }">
@@ -22,7 +22,7 @@
         </li>
       </router-link>
       <li class="navbar-item">
-        <a href="https://job.bytedance.com/campus" target="_blank">校园招聘</a>
+        <a href="/aboutus" target="_blank">关于我们</a>
       </li>
     </ul>
     |

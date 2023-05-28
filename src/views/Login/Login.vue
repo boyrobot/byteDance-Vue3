@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <!-- 登录 -->
     <div class="login-box" v-if="isLogin">
       <div class="title">用户名登录</div>
       <div class="input">
@@ -17,6 +18,8 @@
         </div>
       </div>
     </div>
+    
+    <!-- 注册 -->
     <div class="login-box" v-if="!isLogin">
       <div class="title">用户名注册</div>
       <div class="input">

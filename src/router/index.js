@@ -10,6 +10,10 @@ const routes = [
         path: '/jobs',
         name: 'jobs',
         component: () => import('../views/Jobs/Jobs.vue')
+    },    {
+        path: '/aboutus',
+        name: 'aboutus',
+        component: () => import('../views/About.vue')
     },
     {
       path: '/jobs/:id',
